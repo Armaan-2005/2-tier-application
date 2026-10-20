@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️ Two-Tier AWS Web Application
+# Two-Tier AWS Web Application
 
 ### Terraform • Jenkins • EC2 • Apache2 • ALB • Amazon RDS
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📑 Contents
+## Contents
 
 - [Project Overview](#-project-overview)
 - [Architecture](#-architecture)
@@ -31,7 +31,7 @@
 - [Cleanup](#-cleanup)
 - [Learning Outcomes](#-learning-outcomes)
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates a **two-tier web architecture on AWS** managed with **Terraform** and orchestrated through **Jenkins**.
 
@@ -47,7 +47,7 @@ The web tier uses EC2 instances running Apache2 to serve an HTML page. An **Appl
 - Store Terraform state remotely in S3.
 - Automate Terraform operations with a Jenkins pipeline.
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -70,7 +70,7 @@ flowchart TD
 ```
 
 <details>
-<summary><strong>🔍 How the architecture works</strong></summary>
+<summary><strong> How the architecture works</strong></summary>
 
 1. A visitor opens the ALB DNS address in a browser.
 2. The ALB listener receives the HTTP request and forwards it to a healthy registered EC2 target.
@@ -100,7 +100,7 @@ flowchart TD
 | **Terraform** | Defines and provisions AWS infrastructure |
 | **Jenkins** | Automates Terraform stages |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 2-tier-application/
