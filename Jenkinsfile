@@ -43,6 +43,7 @@ pipeline{
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding',credentialsId: 'AWS_credentials']]) {
                     bat 'terraform state list'
+                    bat 'terraform output'
                 }
             }
         }
