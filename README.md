@@ -378,6 +378,13 @@ Run these commands from the root Terraform configuration directory. Manage the b
 
 ---
 
+## 👨‍💻 Author
+
+**Mohammed Armaan Bakshi**
+
+- GitHub: [@Armaan-2005](https://github.com/Armaan-2005)
+
+---
 <div align="center">
 
 **Built as a practical AWS, Terraform and Jenkins learning project.**
